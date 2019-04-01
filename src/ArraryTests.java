@@ -29,8 +29,7 @@ public class ArraryTests {
         runNum++;
     }
 
-    System.out.println("All scores");
-    System.out.println(nums);
+  
 
 
     for(int i =0; i < nums.size(); i++){
@@ -38,13 +37,7 @@ public class ArraryTests {
 
     }
 
-    System.out.println("Total Scores:");
-    System.out.println(total);
 
-    average = total / nums.size();
-
-    System.out.println("Average:");
-    System.out.println(average);
 
     display();
 
